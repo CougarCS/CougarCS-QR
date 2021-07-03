@@ -3,7 +3,7 @@ import QRCode from 'qrcode.react';
 
 const QR = (props) => {
 	const image = {
-		src: "/cougar.png",
+		src: "cougar.png",
 		width: 65,
 		height: 65,
 		excavate: true
