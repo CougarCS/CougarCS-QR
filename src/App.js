@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import QR from './components/QR/QR';
+import {useState} from "react"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+	const [value, setValue] = useState("https://cougarcs.com");
+
+	const handleSubmit = (e) => {
+		e.preventDefault()
+		const field = e.target[0]
+		setValue(field.value || "https://cougarcs.com")
+		field.value = ""
+	}
+
+    return (
+		<>
+			<div className="container">
+				<form onSubmit={handleSubmit}>
+					<input name="value" placeholder="Enter URL or UH ID" />
+					<button>&rarr;</button>
+				</form>
+			</div>
+			<div className="container">
+				<QR value={value} />
+				<p>{value}</p>
+			</div>
+		</>
+    );
 }
 
 export default App;
