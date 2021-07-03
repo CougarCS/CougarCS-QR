@@ -14,7 +14,7 @@ const QR = (props) => {
 		bgColor: "#f5f5f5",
 		level: "H",
 		includeMargin: false,
-		size: 250,
+		size: 260,
 		imageSettings: image
 	}
 	
