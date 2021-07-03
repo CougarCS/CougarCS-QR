@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CougarCS-QR/static/css/main.45f3e591.chunk.css",
+    "main.js": "/CougarCS-QR/static/js/main.ce72e61b.chunk.js",
+    "main.js.map": "/CougarCS-QR/static/js/main.ce72e61b.chunk.js.map",
+    "runtime-main.js": "/CougarCS-QR/static/js/runtime-main.0bed24b0.js",
+    "runtime-main.js.map": "/CougarCS-QR/static/js/runtime-main.0bed24b0.js.map",
+    "static/js/2.aeaeb2de.chunk.js": "/CougarCS-QR/static/js/2.aeaeb2de.chunk.js",
+    "static/js/2.aeaeb2de.chunk.js.map": "/CougarCS-QR/static/js/2.aeaeb2de.chunk.js.map",
+    "static/js/3.d3efef46.chunk.js": "/CougarCS-QR/static/js/3.d3efef46.chunk.js",
+    "static/js/3.d3efef46.chunk.js.map": "/CougarCS-QR/static/js/3.d3efef46.chunk.js.map",
+    "index.html": "/CougarCS-QR/index.html",
+    "static/css/main.45f3e591.chunk.css.map": "/CougarCS-QR/static/css/main.45f3e591.chunk.css.map",
+    "static/js/2.aeaeb2de.chunk.js.LICENSE.txt": "/CougarCS-QR/static/js/2.aeaeb2de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bed24b0.js",
+    "static/js/2.aeaeb2de.chunk.js",
+    "static/css/main.45f3e591.chunk.css",
+    "static/js/main.ce72e61b.chunk.js"
+  ]
+}
